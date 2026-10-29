@@ -1,4 +1,4 @@
-# Social Media Addiction & Mental Health Analysis
+# Social Media Addiction Prediction
 
 ## Project Overview
 This repository contains a foundational Exploratory Data Analysis (EDA) and baseline machine learning workflow investigating the impact of social media usage on students' mental health. 
