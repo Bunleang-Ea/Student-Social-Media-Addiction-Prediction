@@ -6,7 +6,7 @@ This repository contains a foundational Exploratory Data Analysis (EDA) and base
 The goal of this project is to establish a quantifiable baseline relationship between daily social media habits (usage hours, conflicts, addiction scores) and overall mental health scores using linear regression and rigorous cross-validation techniques.
 
 ## Dataset
-The analysis utilizes the `Students Social Media Addiction.csv` dataset, which includes 705 student records[cite: 4]. Key features analyzed include:
+The analysis utilizes the **Student Social Media Addiction Analysis Dataset** sourced from [Kaggle](https://www.kaggle.com/datasets/zahranusratt/student-social-media-addiction-analysis-dataset). The dataset includes 705 student records[cite: 4]. Key features analyzed include:
 * `Avg_Daily_Usage_Hours`: Average daily time spent on social media[cite: 4].
 * `Sleep_Hours_Per_Night`: Average hours of sleep[cite: 4].
 * `Conflicts_Over_Social_Media`: Frequency of social media-related conflicts[cite: 4].
@@ -33,7 +33,7 @@ The analysis utilizes the `Students Social Media Addiction.csv` dataset, which i
 ## How to Run
 1. Clone this repository.
 2. Ensure you have the required libraries installed (`pip install pandas numpy matplotlib scikit-learn`).
-3. Place the `Students Social Media Addiction.csv` file in the appropriate `Data/` directory.
+3. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/zahranusratt/student-social-media-addiction-analysis-dataset) and place the CSV in the appropriate `Data/` directory.
 4. Run the Jupyter Notebook to view the EDA and model execution.
 
 ## Author
