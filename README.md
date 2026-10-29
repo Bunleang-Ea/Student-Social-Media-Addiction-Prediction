@@ -15,7 +15,7 @@ The analysis utilizes the **Student Social Media Addiction Analysis Dataset** so
 
 ## Methodology
 1. **Data Assessment:** Verified data quality by checking for duplicate records and null values (the dataset was clean and complete).
-2. **Exploratory Data Analysis (EDA):** Generated correlation matrices and scatter plots to visualize the linear relationships between numeric features (usage hours, sleep, conflicts, addiction score) and the target mental health score[cite: 4].
+2. **Exploratory Data Analysis (EDA):** Generated correlation matrices and scatter plots to visualize the linear relationships between numeric features (usage hours, sleep, conflicts, addiction score) and the target mental health score.
 3. **Baseline Modeling:** Split the data (80/20) and trained a baseline Linear Regression model to predict `Mental_Health_Score`.
 4. **Model Evaluation:** Evaluated the model using Mean Absolute Error (MAE) and R-squared (R²). 
 5. **Cross-Validation:** Implemented a 5-Fold Cross-Validation (with shuffling) to ensure model stability and rule out ordering bias.
